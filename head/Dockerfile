@@ -14,5 +14,5 @@ RUN pip install -U pip && \
     pip install /lektor
 
 EXPOSE 5000
-ENTRYPOINT [ "lektor" ]
-CMD [ "serve", "-h", "0.0.0.0" ]
+
+CMD ["lektor", "serve", "-h", "0.0.0.0" ]
